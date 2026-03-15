@@ -25,3 +25,4 @@ nicemli = (roi // faktor) * faktor
 cv2.imshow(f'2 bit (4 renk)', nicemli)
 cv2.waitKey()
 
+cv2.destroyAllWindows()
