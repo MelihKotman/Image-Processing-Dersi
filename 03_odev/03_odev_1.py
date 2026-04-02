@@ -52,7 +52,7 @@ cv2.destroyAllWindows()
 """
 Notebook Raporu: Algoritma Analizi ve Teorik Altyapı
 
-Logaritmik Dönüşümde siyah arka plana ne oldu? Neden "Yıkandı" (Washed-out)?
+1. Logaritmik Dönüşümde siyah arka plana ne oldu? Neden "Yıkandı" (Washed-out)?
 Görseline baktığımızda siyah arka planın Logaritmik Dönüşüm (3. Görsel) uygulandığında tamamen yok olduğunu, bembeyaz/açık gri bir sise dönüştüğünü ("washed-out" olduğunu) çok net görüyoruz.
 
 Teorik Altyapısı: Logaritmik formül olan s=c⋅log(1+r) yapısı gereği, karanlık (düşük r) değerlerini çok agresif bir şekilde yukarı (aydınlığa) çeker. X-Ray görüntüsünde devasa bir alan kaplayan simsiyah arka plan (0'a yakın pikseller), logaritma eğrisinin o ilk dik yokuşuna denk geldiği için anında parlatılmıştır. Logaritmik dönüşüm tıbbi görüntülerde her zaman işe yaramaz; bu örnekte kemik detaylarını ortaya çıkarmak yerine tüm resmi bir sis bulutuna boğmuştur.
